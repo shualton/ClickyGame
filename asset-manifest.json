@@ -1,11 +1,15 @@
 {
   "files": {
-    "main.js": "/shualton/clicky-game.git/static/js/main.f660448d.chunk.js",
-    "main.js.map": "/shualton/clicky-game.git/static/js/main.f660448d.chunk.js.map",
+    "main.css": "/shualton/clicky-game.git/static/css/main.d498bfb3.chunk.css",
+    "main.js": "/shualton/clicky-game.git/static/js/main.24a98d50.chunk.js",
+    "main.js.map": "/shualton/clicky-game.git/static/js/main.24a98d50.chunk.js.map",
     "runtime~main.js": "/shualton/clicky-game.git/static/js/runtime~main.9ad7fe79.js",
     "runtime~main.js.map": "/shualton/clicky-game.git/static/js/runtime~main.9ad7fe79.js.map",
+    "static/js/2.7ad91dd1.chunk.js": "/shualton/clicky-game.git/static/js/2.7ad91dd1.chunk.js",
+    "static/js/2.7ad91dd1.chunk.js.map": "/shualton/clicky-game.git/static/js/2.7ad91dd1.chunk.js.map",
     "index.html": "/shualton/clicky-game.git/index.html",
-    "precache-manifest.3d205b5caf25958338cf5dda9d932bf3.js": "/shualton/clicky-game.git/precache-manifest.3d205b5caf25958338cf5dda9d932bf3.js",
-    "service-worker.js": "/shualton/clicky-game.git/service-worker.js"
+    "precache-manifest.dc8608e637a88de5f5185a2ca60773f4.js": "/shualton/clicky-game.git/precache-manifest.dc8608e637a88de5f5185a2ca60773f4.js",
+    "service-worker.js": "/shualton/clicky-game.git/service-worker.js",
+    "static/css/main.d498bfb3.chunk.css.map": "/shualton/clicky-game.git/static/css/main.d498bfb3.chunk.css.map"
   }
 }
