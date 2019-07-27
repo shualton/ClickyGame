@@ -8,7 +8,8 @@ class App extends Component {
     state = {
         cards,
         score: 0,
-        highscore: 0
+        highscore: 0,
+        currentMessage: "Click all the characters without any repeats!"
     };
 
     endGame = () => {
@@ -33,18 +34,27 @@ class App extends Component {
                         console.log(this.state.score);
                     });
                     this.state.cards.sort(() => Math.random() - 0.5)
+                    this.setState({currentMessage : "Nice! Keep going"}, function() {
+                        console.log(this.state.currentMessage);
+                    });
                     return true;
                 } else {
+                    this.setState({currentMessage : "Game Over: Try Again!"}, function() {
+                        console.log(this.state.currentMessage);
+                    });
                     this.endGame();
                 }
             }
+            
         });
     }
 
     render() {
         return (
           <Wrapper>
-            <Header score={this.state.score} highscore={this.state.highscore}>Clicky Time!</Header>
+            <Header score={this.state.score} highscore={this.state.highscore} currentMessage={this.state.currentMessage}>
+                Clicky Time!
+                </Header>
             {this.state.cards.map(card => (
               <Card
                 clickCount={this.clickCount}
