@@ -41,4 +41,20 @@ class App extends Component {
             }
         });
     }
+
+    render() {
+        return (
+          <Wrapper>
+            <Header score={this.state.score} highscore={this.state.highscore}>Clicky Time!</Header>
+            {this.state.cards.map(card => (
+              <Card
+                clickCount={this.clickCount}
+                id={card.id}
+                key={card.id}
+                image={card.image}
+              />
+            ))}
+          </Wrapper>
+        );
+      }
 }
